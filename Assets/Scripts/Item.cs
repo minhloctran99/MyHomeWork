@@ -2,13 +2,15 @@ using UnityEngine;
 
 public class Item : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public string itemName = "Health Potion";
+    public int healAmount = 50;
+
     void Start()
     {
-        
+        Debug.Log("Item Name: " + itemName);
+        Debug.Log("Heal Amount: " + healAmount);
     }
 
-    // Update is called once per frame
     void Update()
     {
         
